@@ -1,0 +1,51 @@
+Propuesta clara del proyecto
+Desarrollar una aplicación web que permita registrar, visualizar y compartir rutas turísticas locales. El sistema estará orientado a usuarios que deseen explorar su entorno, así como a entidades turísticas que quieran digitalizar sus recorridos. La plataforma ofrecerá funcionalidades de geolocalización, gestión de rutas, autenticación de usuarios y visualización interactiva en mapas.
+
+# Identificación de requisitos del proyecto
+Principales requisitos iniciales:
+- Registro y autenticación de usuarios.
+- Creación, edición y eliminación de rutas turísticas.
+- Visualización de rutas en un mapa interactivo.
+- Almacenamiento de información estructurada sobre cada ruta.
+- Interfaz web responsiva y accesible.
+
+ Requisitos de información
+Cada ruta deberá contener:
+- Nombre de la ruta.
+- Descripción general.
+- Lista de puntos de interés (con coordenadas).
+- Duración estimada.
+- Nivel de dificultad.
+- Tipo de ruta (senderismo, cultural, gastronómica, etc.).
+- Imágenes opcionales.
+- Usuario creador.
+
+ Requisitos funcionales
+- Los usuarios podrán registrarse e iniciar sesión.
+- Los usuarios autenticados podrán crear y editar rutas.
+- Las rutas se mostrarán en un mapa interactivo.
+- Se podrá buscar rutas por tipo, dificultad o duración.
+- El sistema validará los datos introducidos en los formularios.
+- Se permitirá la visualización pública de rutas sin necesidad de registro.
+
+ Otros requisitos
+- El sistema debe ser modular para facilitar futuras ampliaciones (por ejemplo, añadir comentarios, valoraciones o exportación de rutas).
+- Debe garantizar la seguridad básica en el manejo de datos (validación de entradas, protección contra inyecciones SQL).
+- La interfaz debe adaptarse a dispositivos móviles.
+- Se debe documentar el código y el proceso de despliegue.
+
+ Primera aproximación al entorno tecnológico
+Sistema gestor de bases de datos:
+- MySQL
+Lenguaje en servidor:
+- PHP 
+- Node.js
+Lenguaje en cliente:
+- HTML, CSS, JavaScript.
+- Framework: React o Angular
+Framework backend (si se usa PHP):
+- Laravel
+APIs o servicios web a utilizar:
+- Leaflet.js o Google Maps API para la visualización de rutas en el mapa.
+- OpenStreetMap como alternativa libre para mapas.
+- Geocoding API para convertir direcciones en coordenadas (si se desea añadir esta funcionalidad).
