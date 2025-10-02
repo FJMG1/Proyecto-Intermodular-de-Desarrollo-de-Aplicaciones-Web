@@ -1,0 +1,13 @@
+## Introducción
+El turismo local ha cobrado una relevancia creciente en los últimos años, impulsado por el interés en experiencias auténticas, sostenibles y cercanas. En este contexto, surge la necesidad de herramientas digitales que faciliten la exploración, documentación y promoción de rutas turísticas dentro de una localidad.
+Este proyecto propone el desarrollo de una aplicación web que permita registrar, visualizar y compartir rutas turísticas locales. La plataforma estará orientada tanto a visitantes como a residentes interesados en descubrir nuevos recorridos, y a entidades turísticas que deseen digitalizar sus propuestas. La aplicación combinará funcionalidades de geolocalización, gestión de contenidos y visualización interactiva, con un enfoque modular y escalable.
+
+## Alcance del proyecto
+El alcance de esta primera fase del proyecto se centrará en el diseño y desarrollo de una aplicación web funcional que permita:
+- Registrar rutas turísticas con información básica: nombre, descripción, puntos de interés, duración estimada y nivel de dificultad.
+- Visualizar las rutas en un mapa interactivo utilizando tecnologías como Leaflet o Google Maps API.
+- Permitir la creación y edición de rutas por parte de usuarios autenticados.
+- Almacenar los datos en una base de datos estructurada (por ejemplo, MySQL o PostgreSQL).
+- Implementar una interfaz web responsiva y accesible, desarrollada con HTML, CSS y JavaScript (o frameworks como React o Vue.js).
+- Establecer una arquitectura backend que permita la gestión de usuarios, rutas y autenticación, utilizando PHP o Node.js.
+Este primer sprint se enfocará en la definición de requisitos, diseño de la arquitectura base, y desarrollo de un prototipo funcional que cubra el registro y visualización de rutas.
